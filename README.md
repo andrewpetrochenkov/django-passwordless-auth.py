@@ -13,6 +13,9 @@ https://pypi.org/project/python-readme-generator/
 $ [sudo] pip install django-passwordless-auth
 ```
 
+#### Pros
++   3rd party/social authentication without password
+
 #### Examples
 `settings.py`
 ```python
