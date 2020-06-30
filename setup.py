@@ -1,13 +1,7 @@
-from setuptools import setup
+import setuptools
 
-setup(
+setuptools.setup(
     name='django-passwordless-auth',
-    version='2020.5.26',
-    install_requires=[
-        'Django',
-        'setuptools',
-    ],
-    packages=[
-        'django_passwordless_auth',
-    ],
+    install_requires=open('requirements.txt').read().splitlines(),
+    packages=setuptools.find_packages()
 )

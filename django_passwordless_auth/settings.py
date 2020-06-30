@@ -1,4 +1,2 @@
 
-AUTHENTICATION_BACKENDS = (
-    'django_passwordless_auth.backend.PasswordlessAuthBackend',
-)
+AUTHENTICATION_BACKENDS = ('django_passwordless_auth.backend.PasswordlessAuthBackend',)
